@@ -1,5 +1,5 @@
-- name: Installing RoboShop project
-  hosts: "{{component}}" 
+- name: Installing Roboshop project
+  hosts: "{{component}}"
   become: yes
-  roles: 
+  roles:
   - "{{component}}"
